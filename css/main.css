@@ -106,7 +106,7 @@ body {
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
     position: static;
 }
-.mySwiper1.d-flex.align-items-center.justify-content-between.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-rtl.swiper-backface-hidden {
+.mySwiper1 {
     overflow-x: clip !important;
 }
 .mainTitle {
