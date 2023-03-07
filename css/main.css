@@ -62,7 +62,6 @@ body {
     color: #F49916 !important;
 }
 .hero {
-    margin: 100px 0;
     position: relative;
 }
 .swiper {
@@ -238,11 +237,23 @@ body {
 }
 /* product */
 .product {
-    margin-top: 150px;
+    padding-top: 150px;
+}
+.product-list {
+    padding-top: 150px;
+}
+.testimonials {
+    padding-top: 150px;
+}
+.hero {
+    padding-top: 80px;
+}
+.faq {
+    padding-top: 150px;
 }
 .main-section {
     text-align: center;
-    margin: 100px 0;
+    margin-bottom: 100px;
 }
 .main-section p {
     font-size: 35px;
