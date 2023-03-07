@@ -173,7 +173,7 @@ body {
         padding: 0 10px;
     }
     .navbar-collapse {
-        background-color: #F3F3F3;
+        background-color: #F9F9F9;
             }
 }
 @media (min-width: 991px) and (max-width:1200px) {
@@ -297,7 +297,8 @@ body {
         text-align: center;
     }
     .img-container {
-        left: 4% !important;
+        left: 50% !important;
+        transform: translate(-50%,-50%) !important;
     }
     .img-container {
         position: absolute;
