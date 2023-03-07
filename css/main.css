@@ -246,9 +246,12 @@ body {
     padding-top: 150px;
 }
 .hero {
-    padding-top: 80px;
+    padding-top: 120px;
 }
 .faq {
+    padding-top: 150px;
+}
+#orderNow {
     padding-top: 150px;
 }
 .main-section {
