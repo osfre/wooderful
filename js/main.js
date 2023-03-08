@@ -115,4 +115,15 @@ function writeText() {
 
 setInterval(() => {
   writeText();
-}, 500)
+}, 500);
+
+
+
+let btn = document.querySelector(".navbar-collapse");
+let links = document.querySelectorAll(".navbar-nav .nav-link")
+
+links.forEach(link => {
+  link.onclick = () => {
+    btn.classList.remove("show");
+  }
+});
