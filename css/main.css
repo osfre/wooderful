@@ -531,8 +531,6 @@ p.t-des {
   padding-top: 80px;
 }
 /* sections */
-
-
 .fade-test {
   animation-name: fade;
   animation-duration: 3s;

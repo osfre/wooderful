@@ -81,6 +81,7 @@
   onscroll = () => {
     scrollToTop()
     navbar()
+    navScroll()
   }
   function scrollToTop() {
       if (window.scrollY >= 400) {
@@ -132,13 +133,20 @@ links.forEach(link => {
   }
 });
 // remove nav link
-// Initialize library
-lozad('.lozad', {
-  load: function(el) {
-    el.src = el.dataset.src;
-      el.onload = function() {
-        el.classList.add('fade-test')
-      }
-  }
-}).observe()
-      // Initialize library
+      // change nav link color
+      let sections = document.querySelectorAll("section");
+      let navlinks = document.querySelectorAll(".nav-item .nav-link");
+
+        function navScroll() {
+      sections.forEach((section) => {
+        if (scrollY >= section.offsetTop - 300) {
+        navlinks.forEach((a) => {
+          a.classList.remove("active");
+        if (a.getAttribute('href') == "#" + section.getAttribute("id")) {
+        a.classList.add("active");
+        }
+      });
+        }
+    });
+    }
+      // change nav link color
