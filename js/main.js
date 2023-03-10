@@ -100,15 +100,6 @@
       }
   }
 // scroll
-// change name title
-let mainTitle = document.title;
-window.onblur = () => {
-	document.title = "Hey, Come Back";
-}
-window.onfocus = () => {
-	document.title = mainTitle;
-}
-// change name title
 // name 
 let myName = "وودرفول";
 let index = 0;
