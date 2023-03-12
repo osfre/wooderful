@@ -7,6 +7,8 @@
 :root {
   --main-color: #f49916;
   --white-color: #ffffff;
+  --slider-width: 50rem;
+  --slider-height: 30rem;
 }
 html {
   scroll-behavior: smooth;
