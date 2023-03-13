@@ -8,7 +8,7 @@
   --main-color: #f49916;
   --white-color: #ffffff;
   /* --image-comparison-slider-width: min(80vw, 768px); */
-  --image-comparison-slider-width: min(30vw, 355px);
+  --image-comparison-slider-width: min(60vw, 355px);
   --image-comparison-slider-handle-width: 50px;
 }
 html {
@@ -657,6 +657,9 @@ p.t-des {
   }
   #image-comparison-slider {
     margin-bottom: 50px;
+  }
+  #image-comparison-slider {
+    --image-comparison-slider-width: min(80vw, 768px);
   }
 }
 /* image-slide */
